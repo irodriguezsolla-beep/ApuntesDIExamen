@@ -1,0 +1,49 @@
+etiqueta = QLabel("Texto ancho")
+pantalla_zoa.addWidget(etiqueta, 0, 0, 1, 2)
+Cómo leer los 4 números fácil (para no liarte mañana):
+0: En qué fila empieza.
+
+0: En qué columna empieza.
+
+1: Cuántas filas de alto ocupa (1 = altura normal).
+
+2: Cuántas columnas de ancho ocupa (2 = ocupa 2 celdas hacia la derecha).
+
+(Nota: si en vez de un widget suelto es un sub-layout como QHBoxLayout, es exactamente igual pero con addLayout(mi_layout, 0, 0, 1, 2)).
+
+
+
+
+etiqueta = QLabel("Texto alto")
+pantalla_zoa.addWidget(etiqueta, 0, 0, 2, 1)
+Cómo queda cada número:
+0: Empieza en la fila 0.
+
+0: Empieza en la columna 0.
+
+2: Ocupa 2 filas de alto (hacia abajo, es decir, la fila 0 y la fila 1).
+
+1: Ocupa 1 columna de ancho (ancho normal).
+
+Resumen rápido para acordarte mañana:
+addWidget(elemento, fila, columna, ALTO, ANCHO)
+
+2 de lado (ancho): ..., 0, 0, 1, 2)
+
+2 de alto: ..., 0, 0, 2, 1)
+
+Un cuadrado grande de 2x2: ..., 0, 0, 2, 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
